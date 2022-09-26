@@ -1,54 +1,143 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    background-color: #1f2937;
+    font-family: "Roboto", Arial, Helvetica, sans-serif ;
+}
+
+.logo,
+.text,
+.title,
+.right-links,
+.sign-up,
+footer,
+.placeholder,
+.cta-msg {
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: grey;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 200px;
 }
 
 .header-section {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+    flex-shrink: 0;
+    background-color: #1f2937;
+}
+
+.right-links {
+    display: flex;
+    flex-shrink: 0;
 }
 
 .intro-section {
     display: flex;
+    gap: 35px;
     padding: 100px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: #1f2937;
+}
+
+.sign-up #white-border {
+    border: white;
 }
 
 .mid-title {
     text-align: center;
     padding: 32px;
+    background-color: white;
+    margin-bottom: -10px;
 }
 
 .info-section {
     display: flex;
+    background-color: white;
     padding: 100px;
+    gap: 25px;
 }
 
 .info-boxes {
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.info-image {
+    border: 5px solid #3882f6;;
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 .quote-section {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    background-color: lightgrey;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 30px;
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 100;
 }
 
 .quote-author {
     align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .cta-section {
     display: flex;
     padding: 100px;
+    background-color: white;
 }
 
 .cta-msg {
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: #3882f6;
+    background-color: ;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 .button {
@@ -56,11 +145,14 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
+    background-color: #3882f6;
+    border-radius: 0px 10px 10px 0px;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 25px;
 
 }
