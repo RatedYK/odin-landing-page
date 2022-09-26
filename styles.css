@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.intro-section {
+    display: flex;
+    padding: 100px;
+}
+
+.mid-title {
+    text-align: center;
+    padding: 32px;
+}
+
+.info-section {
+    display: flex;
+    padding: 100px;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.cta-section {
+    display: flex;
+    padding: 100px;
+}
+
+.cta-msg {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
