@@ -109,12 +109,13 @@ a {
     flex: 0 0 0;
 }
 
-.info-image {
+.info-boxes img {
     display: flex;
-    border: 5px solid #3882f6;;
+    border: 5px solid #3882f6;
     border-radius: 15px;
-    max-width: 200px;
-    max-height: 200px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .quote-section {
